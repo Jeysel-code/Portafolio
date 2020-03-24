@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700|Raleway:200,300,400,500,600,700&display=swap');
+body{
+	background-color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	color: #251E20;
+}
+
+header{
+	background-color: #fff;
+	width: 100%;
+	text-align: center;
+	font-size: 24px;
+	color: #251E20;
+	padding: 20px 0px;
+}
+header h1{
+	font-size: 18px;
+}
+#header a{
+	color: #251E20;
+}
+#header a:hover{
+	color: #F79630;
+}
+#foot{
+	background-color: #251e20;
+	color: #ebf0f2;
+	padding: 40px 0px;
+	font-size: 13px;
+	text-align: center;
+}
+#foot h6{
+	font-weight: bold;
+}
+#foot p{
+	font-weight: lighter;
+}
+.redes{
+	text-align: center;
+	line-height: 8;
+}
+
+.redes i{
+	background-color: #464646;
+	color: #ebf0f2;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	border-radius: 100%;
+	font-size: 20px;
+	transition: all 0.3s ease-in-out;
+}
+
+.redes i:hover{
+	background-color: #ebf0f2;
+	color: #f79630;
+	transition: all 0.3s ease-in-out;
+}
+
+#foot2{
+	background-color: #251e20;
+	color: #ebf0f2;
+	font-size: 13px;
+	text-align: center;
+}
+
+#foot2 a{
+	color: #ebf0f2;
+}
+
+#foot2 a:hover{
+	color: #f79630;
+}
+
+#jeysel{
+	margin: 13%;
+}
+
+.anima{
+	position: relative;
+	height: 200px;
+	overflow: hidden;
+}
+.letra{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: grid;
+	align-content: center;
+	text-align: center;
+	top: 0;
+	transition: all 0.3s ease-in;
+}
+.texto{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: grid;
+	align-content: center;
+	opacity: 0;
+	text-align: center;
+	top: 100%;
+	transition: all 0.3s ease-in;
+	color: #251E20;
+	font-size: 19px;
+	font-weight:500;
+}
+
+#jeysel a{
+	color: #F79630;
+}
+
+#jeysel a:hover{
+	color: #11589B;
+}
+.anima:hover .letra{
+	opacity: 0;
+	top: 100px;
+	transition: all 0.3s ease-in;
+}
+
+.anima:hover .texto{
+	opacity: 1;
+	top: 0;
+	transition: all 0.3s ease-in;
+}
+
+.txt1{
+	color: #ebf0f2;
+	background-color: #F79630;
+	text-align: center;
+	border-radius: 100px;
+	height: 100%;
+	width: 100%;
+	line-height: 50px;
+}
+.form-control{
+	background-color: #EBF0F2;
+	border: 0px;
+	border-radius: 30px;
+}
+
+.btn-negro{
+	color: #11589B;
+	border: 1px solid #11589B;
+	border-radius: 100px;
+}
+
+.btn-negro:hover{
+	background-color: #11589B;
+	color: #EBF0F2;
+	transition: all 0.3s ease-in-out;
+}
+
+.titulo{
+	text-align: center;
+	align-content: center;
+	color: #251E20;
+	padding: 20px;
+	font-size: 35px;
+}
+#formulario{
+	padding: 20px;
+}
+
+#formulario p{
+	text-align: center;
+	font-size: 15px;
+	padding: 20px;
+}
+
+#formulario h3{
+	font-size: 28px;
+	padding: 20px;
+}
+
+#map{
+	width: 100%;
+	height: 400px;
+}
+
+span{
+	color: #F79630;
+}
+
+.dropdown-menu{
+	background-color: #EBF0F2;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: #ebf0f2;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #11589B;
+	color: #ebf0f2;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 18px;
+  background-color: #fff;
+  display: none;
+  overflow: hidden;
+}
+
+#yo{
+	padding: 30px;
+}
+
+.subt{
+	font-weight: 900;
+}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  background-color: #ebf0f2;
+  border-radius: 100px;
+	text-align: center;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 45px;
+  transition: 0.3s;
+  font-size: 17px;
+  border-radius: 100px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #F79630;
+  color: #ebf0f2;
+	transition: all 0.3s ease-in-out;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #f79630;
+  color: #ebf0f2;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+}
+.ye:hover {
+background-color: #11589B!important;
+}
+
+.ya:hover{
+background-color: #251E20!important;
+transition: all 0.3s ease-in-out;
+}
+
+#ilus{
+	padding: 2% 0;
+}
+
+#more {
+	display: none;
+}
+
+.first{
+	padding: 3%;
+	align-content: center;
+}
+
+.ifo{
+	padding: 3%;
+	align-content: center;
+}
+
+.graf{
+	padding: 3%;
+	align-content: center;
+}
+
+.vid{
+	height: 0;
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	position: relative;
+}
+
+.vid video{
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+.vid h6{
+	padding: 10px;
+	font-size: 20px;
+}
+
+.ux{
+	padding: 5%;
+	align-content: center;
+	height: inherit;
+	width: inherit;
+}
+
+#Italia h6{
+	text-align: center;
+	color: #11589B;
+	font-size: 20px;
+	font-weight: 800;
+	padding: 25px;
+}
+
+#Italia p{
+	text-align: center;
+	color: #251E20;
+	font-size: 15px;
+	padding: 10px;
+}
+
+#more {
+	display: none;
+}
+
+.txt2{
+	color: #f79630;
+	font-size: 15px;
+}
+
+.btn-light{
+	font-size: 10px;
+	color: #f79630;
+	border: 1px solid #f79630;
+	border-radius: 100px;
+	background-color: #fff;
+}
+
+.btn-light:hover{
+	background-color: #f79630;
+	border: 1px solid #f79630;
+	color: #EBF0F2;
+	transition: all 0.3s ease-in-out;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 100px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ebf0f2; 
+  border-radius: 100px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #f79630; 
+}

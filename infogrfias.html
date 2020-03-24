@@ -1,0 +1,325 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width initial-scale=1.0">
+<title>Jeysel</title>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/bootstrap-custom.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" rel="stylesheet">
+<link href="css/jquery.fancybox.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<meta name="Description" content="Página donde se muestra todas las infogrfias de Jeysel">
+<meta name="Keywords" content="jeysel, infografias, digital, colores, gráfico">
+</head>
+
+<body>
+	<header id="header">
+		<div class="container">
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+				<a class="navbar-brand" href="index.html">
+					<img src="img/logo.jpg" class="img-fluid" alt="oshine">
+				</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="index.html">Inicio</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Trabajos</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item"  href="ilustraciones.html">Ilustraciones</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="infogrfias.html">Infografías</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="diseno.html">Diseño Gráfico</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="videos.html">Videos</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="ux.html">UX</a>
+						<div class="dropdown-divider"></div>
+					</div>
+				</li>
+      			<li class="nav-item">
+		   			<li class="nav-item">
+        				<a class="nav-link" href="conoceme.html">Conóceme</a>
+      				</li>
+        			<a class="nav-link" href="contactame.html">Contáctame</a>
+      			</li>
+    		</ul>
+		</div>
+	</nav>
+</div>
+</header>
+	
+<section id="modal-panel">
+	<div class="container">
+		<div class="tab">
+			<button class="tablinks" onclick="openCity(event, 'London')">Ilustraciones</button>
+			<button class="tablinks ye" onclick="openCity(event, 'Paris')" id="defaultOpen">Infografías</button>
+			<button class="tablinks ya" onclick="openCity(event, 'Tokyo')">Diseño Gráfico</button>
+			<button class="tablinks ye" onclick="openCity(event, 'Madrid')">Videos</button>
+			<button class="tablinks ya" onclick="openCity(event, 'Italia')">UX</button>
+		</div>
+
+	<div id="London" class="tabcontent first">
+		<div class="container">
+			<div class="row mb-4">
+			<div class="col-6 col-lg-4">
+				<figure>
+					<a class="d-block mb-4" data-fancybox="images" href="img/zorrito.jpg" data-caption="Digital watercolor fox, Febrero 25, 2020">
+						<img class="img-fluid" src="img/zorrito.jpg" alt="watercolor fox">
+					</a>
+				</figure>
+				<figure>
+					<a class="d-block mb-4" data-fancybox="images" href="img/landscape.jpg" data-caption="Watercolor Landscape, Diciembre 12, 2019">
+						<img class="img-fluid" src="img/landscape.jpg" alt="watercolor landsacpe">
+					</a>
+				</figure>
+			</div>
+			<div class="col-6 col-lg-4">
+				<figure>
+					<a class="d-block mb-4" data-fancybox="images" href="img/colorsc1.jpg" data-caption="Mora, Dicimebre 11,2019">
+						<img class="img-fluid" src="img/colorsc1.jpg" alt="mora">
+					</a>
+				</figure>
+				<figure>
+					<a class="d-block mb-4" data-fancybox="images" href="img/colorsc2.jpg" data-caption="Gus Y Mora, Diciembre 11, 2019">
+						<img class="img-fluid" src="img/colorsc2.jpg" alt="Gus y mora">
+					</a>
+				</figure>
+			</div>
+			<div class="col-6 col-lg-4 d-none d-lg-block">
+				<figure>
+					<a class="d-block mb-4" data-fancybox="images" href="img/El-principito.jpg" data-caption="The little prince, the drunk man, Chapter Seven, DIciembre 9, 2019">
+						<img class="img-fluid" src="img/El-principito.jpg" alt="The little prince">
+					</a>
+				</figure>
+			</div>
+			</div>
+			
+			<section id="inlay">
+				<div class="txt2">
+					<p>Haz click en las imagenes</p>
+					<span id="dots"></span>
+					<span id="more">Puedes hacer click en todas las imagenes, en las infografías y los videos también puedes hacerlo, pudes ver información importante.</span><br>
+					<button onclick="myFunction()" id="myBtn" class="btn btn-light">Leer Más</button>
+				</div>
+			</section>
+		
+		</div>
+		</div>
+		<div id="Paris" class="tabcontent ifo">
+			<div class="container">
+		<div class="row mb-4">
+			<div class="col-6 col-lg-4">
+				<figure>
+					<a class="d-block mb-4" data-fancybox="Paris" href="img/info (1).jpg" data-caption="Adaptación animal o vegetal, Febrero 17, 2020 ">
+						<img class="img-fluid" src="img/info (1).jpg" alt="Infografia 1">
+					</a>
+				</figure>
+				<figure>
+					<a class="d-block mb-4" data-fancybox="Paris" href="img/infografia final.jpg" data-caption="Las venas abiertas de latinoamérica, Agosto 26, 2019">
+						<img class="img-fluid" src="img/infografia final.jpg" alt="infografia">
+					</a>
+				</figure>
+			</div>
+			<div class="col-6 col-lg-4">
+				<figure>
+					<a class="d-block mb-4" data-fancybox="Paris" href="img/sieteañosdespuesfinal.jpg" data-caption="Las venas abiertas de latinoamérica, Capítulo 7: Siete años después, Agosto 12, 2019">
+						<img class="img-fluid" src="img/sieteañosdespuesfinal.jpg" alt="infografia">
+					</a>
+				</figure>
+			</div>
+			<div class="col-6 col-lg-4 d-none d-lg-block">
+				<figure>
+					<a class="d-block mb-4" data-fancybox="Paris" href="img/Infografia-jeysel-salgado.jpg" data-caption="Relaciones Violet Evergarden, Agosto 5, 2019">
+						<img class="img-fluid" src="img/Infografia-jeysel-salgado.jpg" alt="Infografias">
+					</a>
+				</figure>
+				<figure>
+					<a class="d-block mb-4" data-fancybox="Paris" href="img/Infografia_JeyselSalgado.jpg" data-caption="Infografía CV, Julio 22, 2019">
+						<img class="img-fluid" src="img/Infografia_JeyselSalgado.jpg" alt="Infografia">
+					</a>
+				</figure>
+				
+			</div>
+			</div>
+		</div>
+		</div>
+		<div id="Tokyo" class="tabcontent graf">
+			<div class="container">
+				<figure>
+					<a class="d-block mb-4" data-fancybox="Tokyo" href="img/styless.jpg" data-caption="Louxos Stylescapes, Mayo 6, 2019">
+						<img class="img-fluid" src="img/styless.jpg" alt="Style">
+					</a>
+				</figure>
+				<figure>
+					<a class="d-block mb-4" data-fancybox="Tokyo" href="img/style.jpg" data-caption="Louxos Stylescape, Mayo 6, 2019">
+						<img class="img-fluid" src="img/style.jpg" alt="style">
+					</a>
+				</figure>
+			</div>
+		</div>
+		<div id="Madrid" class="tabcontent">
+			<div class="container">
+					<div class="vid">
+						<a  data-fancybox="Madrid" href="Manzanita.mp4" data-caption="Manzanita, Junio 19, 2019">
+						<video src="Manzanita.mp4" type="video/mp4" controls></video>
+						</a>
+					</div>
+					<figcaption>
+						<h6>Manzanita</h6>
+						<p>Trabajo basado en la animación de el maravilloso mundo de gumball<br> Realidad combinada con animación</p>
+					</figcaption>
+			</div>
+		</div>
+		<div id="Italia" class="tabcontent ux">
+			<div class="container">
+			<div class="row">
+			<article class="col-md-6 col-sm-12">
+              <div id="carouselAbout" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block w-100" src="img/Android Mobile – 1.jpg" alt="First slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="img/Android Mobile – 3.jpg" alt="Second slide">
+                  </div>
+					<div class="carousel-item">
+                    <img class="d-block w-100" src="img/Android Mobile – 16.jpg" alt="Second slide">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselAbout" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselAbout" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+				  <h6>Juego Puzzle Star</h6>
+				  <p>Juego basado en los puzzle rocks, los usuarios de cualquier edad lo pueden jugar</p>
+				</div>
+          </article>
+			<article class="col-md-6 col-sm-12">
+              <div id="carouselbout" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block w-100" src="img/iPhone 6-7-8 Plus – 2.jpg" alt="Second slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="img/iPhone 6-7-8 Plus – 3.jpg" alt="Second slide">
+                  </div>
+					<div class="carousel-item">
+                    <img class="d-block w-100" src="img/cursos.jpg" alt="Second slide">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselbout" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselbout" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+				  <h6>Blackboard Unitec</h6>
+				  <p>Portotipo de la aplicación blacboard de Unitec</p>
+              </div>
+          </article>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+	
+	<footer>
+		<section id="foot">
+			<div class="container">
+			<div class="row">
+				<article class="col-md-4 col-xs-12 info-f">
+					<h6>Búscame en:</h6>
+					<p>Tegucigalpa, Honduras</p>
+					<p>+504 1236-5504/<br>Salgadojeysel25@gmail.com</p>
+				</article>
+				<article class="col-md-4 col-xs-12 redes">
+					<a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+					<a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+					<a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+					<a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+				</article>
+				<article class="col-md-4 col-xs-12 info-f">
+					<h6>Más Información</h6>
+					<p>FAQ<br>Comissions<br>Works</p>
+				</article>
+			</div>
+			</div>
+		</section>
+		<section id="foot2">
+		<div class="container">
+		<div class="row">
+			<article class="col-md-4 col-xs-12">
+				<p>Copyright &copy; 2020</p>
+			</article>
+			<article class="col-md-4 col-xs-12 jey">
+				<p>JEYSEL</p>
+			</article>
+			<article class="col-md-4 col-xs-12 text">
+				<ul class="list-inline">
+					<li class="list-inline-item">
+						<a href="#">Terms & Conditions</a>
+					</li>
+					<li class="list-inline-item">
+						<a href="#">Privacy Policy</a>
+					</li>
+				</ul>
+			</article>
+		</div>
+		</div>
+		</section>
+	</footer>
+	
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.fancybox.min.js"></script>
+	<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+<script>
+	function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Leer Más";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Leer menos";
+    moreText.style.display = "inline";
+  }
+}
+	</script>
+	
+</body>
+</html>
